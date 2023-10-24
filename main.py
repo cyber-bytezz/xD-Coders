@@ -144,7 +144,13 @@ def convert_lang_func(query,inp_lang,to_lang):
 st.set_page_config(page_icon=":computer:", layout = "wide")
 
 # #238636
-st.write("<div style='text-align: center'><h1>AI-xD <em style='text-align: center; color: #238636;'>Innovators</em></h1></div>", unsafe_allow_html=True)
+st.write("""
+<div style='text-align: center; background-color: #f8f8f8; padding: 20px; border-radius: 10px;'>
+    <h1 style='font-family: "Pacifico", cursive; color: #238636;'>Welcome to AI-xD <em>Innovators</em>!</h1>
+    <p style='font-size: 1.2em; color: #555555;'>Where Imagination Meets Innovation</p>
+    <img src='your_image_url_here' alt='Innovation' style='max-width: 100%; border-radius: 10px; margin-top: 20px;' />
+</div>
+""", unsafe_allow_html=True)
 
 LANGUAGES = [
     "abap", "abc", "actionscript", "ada", "alda", "apache_conf", "apex", "applescript", "aql", 
