@@ -146,28 +146,30 @@ st.set_page_config(page_icon=":computer:", layout = "wide")
 # #238636
 st.write("""
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
     .custom-container {
         text-align: center;
         background-image: url('https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg');
         background-size: cover;
         background-position: center;
         background-attachment: fixed; /* Keeps the background fixed */
-        padding: 20px;
+        padding: 10px;
         border-radius: 10px;
     }
     h1 {
-        font-family: "Pacifico", cursive;
+        font-family: 'Pacifico', cursive;
         color: white;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     p {
         font-size: 1.2em;
         color: white;
     }
     img {
-        max-width: 50%;
+        max-width: 30%;
         border-radius: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 </style>
 
