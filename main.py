@@ -146,8 +146,6 @@ st.set_page_config(page_icon=":computer:", layout = "wide")
 # #238636
 st.write("""
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
     .custom-container {
         text-align: center;
         background-image: url('https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg');
@@ -158,12 +156,12 @@ st.write("""
         border-radius: 10px;
     }
     h1 {
-        font-family: 'Pacifico', cursive;
+        font-family: "Pacifico", cursive;
         color: white;
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     p {
-        font-size: 1.2em;
+        font-size: 1em;
         color: white;
     }
     img {
@@ -179,6 +177,7 @@ st.write("""
     <img src='https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg' alt='Innovation' />
 </div>
 """, unsafe_allow_html=True)
+
 
 LANGUAGES = [
     "abap", "abc", "actionscript", "ada", "alda", "apache_conf", "apex", "applescript", "aql", 
