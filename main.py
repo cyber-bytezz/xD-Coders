@@ -145,10 +145,36 @@ st.set_page_config(page_icon=":computer:", layout = "wide")
 
 # #238636
 st.write("""
-<div style='text-align: center; background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); padding: 10px; border-radius: 10px;'>
-    <h1 style='font-family: "Pacifico", cursive; color: white; font-size: 2em;'>Welcome to AI-xD <em style='color: #238636;'>Innovators</em>!</h1>
-    <p style='font-size: 1.2em; color: white;'>Where Imagination Meets Innovation</p>
-    <img src='https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg' alt='Innovation' style='max-width: 50%; border-radius: 10px; margin-top: 20px;' />
+<style>
+    .custom-container {
+        text-align: center;
+        background-image: url('https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 600px; /* Set the height of the container */
+        padding: 20px;
+        border-radius: 10px;
+    }
+    h1 {
+        font-family: "Pacifico", cursive;
+        color: white;
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+        color: white;
+    }
+    img {
+        max-width: 50%;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+</style>
+
+<div class="custom-container">
+    <h1>Welcome to AI-xD <em>Innovators</em>!</h1>
+    <p>Where Imagination Meets Innovation</p>
+    <img src='https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg' alt='Innovation' />
 </div>
 """, unsafe_allow_html=True)
 
