@@ -148,7 +148,7 @@ st.write("""
 <div style='text-align: center; background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); padding: 20px; border-radius: 10px;'>
     <h1 style='font-family: "Pacifico", cursive; color: white;'>Welcome to AI-xD <em style='color: #238636;'>Innovators</em>!</h1>
     <p style='font-size: 1.2em; color: white;'>Where Imagination Meets Innovation</p>
-    <img src='https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg' alt='Innovation' style='max-width: 100%; border-radius: 10px; margin-top: 20px;' />
+    <img src='https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg' alt='Innovation' style='max-width: 50%; border-radius: 10px; margin-top: 20px;' />
 </div>
 """, unsafe_allow_html=True)
 
