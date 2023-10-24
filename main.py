@@ -150,7 +150,8 @@ st.write("""
         text-align: center;
         background-image: url('https://devdiscourse.blob.core.windows.net/devnews/16_03_2023_15_14_34_5542512.jpg');
         background-size: cover;
-        height: 600px; /* Set the height of the container */
+        background-position: center;
+        background-attachment: fixed; /* Keeps the background fixed */
         padding: 20px;
         border-radius: 10px;
     }
